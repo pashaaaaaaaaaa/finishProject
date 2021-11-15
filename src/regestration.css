@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero{
+    margin: auto;
+    width: 380px;
+    height: 480px;
+    background-size: cover;
+    position: absolute;
+    /* background-position: center ; */
+}
+.frombox{
+            box-shadow:  0 0 0 1px rgb(216, 252, 14) inset,
+        0 5px 0 -4px rgb(255, 255, 255),
+        0 5px 0 -3px rgb(148, 235, 9),
+        0 11px 0 -8px rgb(255, 255, 255),
+        0 11px 0 -7px rgb(202, 163, 6),
+        0 17px 0 -12px rgb(255, 255, 255),
+        0 17px 0 -11px rgb(172, 139, 9);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 6% auto;
+    padding: 5px;
+    overflow: hidden;
+    z-index: 1;
+    background-image: url('./fon.jpg') ;
+    background-position: center;
+    animation: anim 50s linear infinite;
+    margin-top: 20px; 
+}
+@keyframes anim{
+    0%{
+        background-position: top 0px top px ;}
+    35%{
+         background-position: top 800px top x ;}
+     70%{
+         background-position: top 1600px top  ;}
+     100%{
+         background-position: left 2200px top  ;}
+    }
+.buttonbox{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 10px 5px #51a086be;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.togglebtn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border-radius: 30px;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+.sicial-icons{
+    text-align: center;    
+    margin: 30px auto;
+}
+.sicial-icons img{
+    width: 40px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.ingroup{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+.infield{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0 ;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid pink;
+    outline: none;
+    background: transparent;
+}
+.submitbtn{
+    width: 85%;
+    padding: 10px 30px ;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    color: whitesmoke;
+    box-shadow: 0 0 10px 5px #4c8b76be;
+    border-radius: 30px;
+}
+.chechbox{
+    margin: 30px 10px 30px 0;
+
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px ;
+    position: absolute;
+}
+#login{
+    left: 50px;
+}
+#register{
+    left: 450px;
+}

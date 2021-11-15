@@ -1,0 +1,85 @@
+.cont{
+    width: 1000px;
+    height: 400px;
+    background: #ccc;
+    margin: 120px auto;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./cook.jpg);
+}
+.col{
+    height: 100%;
+    color: #fff;
+    flex: 1;
+    box-sizing: border-box;
+    padding: 25px;
+    position: relative;
+    transition: 1s;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+-23px 0 20px -23px rgba(0, 0, 0, .8),
+23px 0 20px -23px rgba(0, 0, 0, .8),
+0 0 40px rgba(0, 0, 0, .1) inset;
+}
+.col:nth-child(1){
+    background:rgba(0,0,0,0.1);
+    border: 1px solid yellow;
+    color: yellow;
+}
+.col:nth-child(2){
+    background:rgba(0,0,0,0.1);
+    border: 1px solid  yellow;
+    color: yellow;
+
+}
+.col:nth-child(3){
+    background:rgba(0,0,0,0.1);
+    border: 1px solid  yellow;
+    color: yellow;
+}
+h2{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: seagreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.col p{
+    font-size: 13px;
+}
+.caption{
+    max-width: 230px;
+    font-size: 12px;
+    margin: 28px 0;
+    display: none;
+}
+.caption button{
+    border: 2px solid yellow;
+    background: transparent;
+    outline: none;
+    padding: 8px 18px;
+    color: yellow;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.col img{
+    width: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.col:hover{
+ flex-grow: 2.5;
+}
+.col:hover .caption{
+    display: block;
+}
+.col:hover h2{
+    text-align: left;
+}

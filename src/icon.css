@@ -1,0 +1,123 @@
+/* .saedbar{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    height: 225px;
+    width: 50px;
+    background: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    float: left;
+    z-index: 1;
+    box-sizing: border-box;
+}
+.icon-box{
+    width: 40px;
+    height: 40px;
+    border: 0.3px solid red;
+    display: flex;
+    align-items: center;
+    margin: 5px auto;
+    box-sizing: border-box;
+}
+.side-text{
+    min-width: 0px;
+    height: 100%;
+    background: #f44336 ;
+    margin-left: 50px;
+    line-height: 0;
+    color:white ;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    border-radius: 5px 0 0 5px  ;
+    overflow: hidden;
+    transition:0.5s ;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    min-width: 50px;
+    height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.icon .fa{
+    font-size: 20px;
+    color: tomato;
+    line-height: 50px;
+}
+.icon-box:hover .icon{
+    background: #f44336;
+}
+.icon-box:hover .icon .fa{
+    color: #fff;
+}
+.icon-box:hover .side-text{
+    min-width:140px ;
+} */
+.saedbar{
+    padding-top: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 250px;
+    width: 50px;
+    background: white;
+    border-radius: 5px;
+    position: fixed;
+    top: 80%;
+    left: 20px;
+    z-index: 1;
+    border: 1px solid red;
+    transform: translateY(-50%);
+
+}
+.icon-box{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    margin: 5px auto;
+}
+.side-text{
+    min-width: 0px;
+    height: 100%;
+    background: #f44336 ;
+    margin-right: 5px;
+    line-height: 0;
+    color:white ;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    border-radius: 5px 0 0 5px  ;
+    overflow: hidden;
+    transition:0.5s ;
+}
+.icon{
+    min-width: 50px;
+    height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.icon .fa{
+    font-size: 20px;
+    color: tomato;
+    line-height: 50px;
+}
+.icon-box:hover .icon{
+    background: #f44336;
+}
+.icon-box:hover .icon .fa{
+    color: #fff;
+}
+.icon-box:hover .side-text{
+    min-width:140px ;
+}

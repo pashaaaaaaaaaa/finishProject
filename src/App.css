@@ -1,0 +1,13 @@
+.App {
+  margin: auto;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 5px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: rgb(253, 247, 209);
+}
+

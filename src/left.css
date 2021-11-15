@@ -1,0 +1,38 @@
+.menu-left ul{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 850px;
+    background:rgba(46, 43, 43, 0.493);
+    transition: 0.5s;
+    z-index: 1;
+    overflow-y: auto;
+}
+input[type="checkbox"]:checked~ul{
+    left: -200px;
+}
+.menu-left ul li{
+    list-style: none;
+}
+ li a{
+    display: block;
+    color: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.5s;
+
+}
+ul li a:hover{
+transform: translateX(50px);
+color: yellow;
+}
+ul li:hover{
+    background-color: rgb(170, 170, 39);
+}

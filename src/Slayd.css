@@ -1,0 +1,25 @@
+.imgSlayd{
+    width: 400px;
+    height: 350px;
+    margin-right: 5px;
+    background-position: center;
+    background-size: cover;
+}
+/* .imgSlayd:last-child{
+    margin-right: none;
+} */
+.slayd-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+.splide{
+    width: 1200px;
+    margin: auto;
+}
+.right{
+    margin-right: 20px;
+}
